@@ -42,7 +42,7 @@ export default Header
 
 const Container=styled.div`
     min-height:60px;
-    posistion:fixed;
+    position:fixed;
     display:flex;
     align-items:center;
     justify-content:space-between;

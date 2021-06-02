@@ -44,7 +44,6 @@ const Wrap=styled.div`
     justify-content:space-between;
     align-items:center;
     background-image: ${props=>`url("/images/${props.bgImage}")`}
-
 `
 const ItemText=styled.div`
   padding-top: 15vh;
@@ -56,7 +55,6 @@ const ButtonGroup=styled.div`
   @media(max-width:768px){
       flex-direction:column;
   }
-
 `
 const LeftButton=styled.div`
    background-color: rgba(23,26,32,0.8);
@@ -72,14 +70,12 @@ const LeftButton=styled.div`
    font-size: 12px;
    cursor: pointer;
    margin:8px;
-
 `
 // styled(LeftButton) it will inherit all the property of left button and right button
 const RightButton=styled(LeftButton)`
  background:white;
  opacity:0.65;
  color:black;
-
 `
 const DownArrow=styled.img `
  margin-top:20px;
